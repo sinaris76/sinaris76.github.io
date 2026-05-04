@@ -1,0 +1,6 @@
+services:
+  jekyll:
+    image: amirpourmand/al-folio:latest
+    volumes:
+      - /Users/srismanc/Desktop/website/.git:/Users/srismanc/Desktop/website/.git:ro
+    entrypoint: ["/bin/bash", "-c", "bundle install && /tmp/entry_point.sh"]

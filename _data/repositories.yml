@@ -1,0 +1,9 @@
+github_users:
+  - sinaris76
+
+repo_description_lines_max: 2
+
+github_repos:
+  - sinaris76/TurtleBench
+  - sinaris76/ABICAP
+  - sinaris76/TournamentMobility
