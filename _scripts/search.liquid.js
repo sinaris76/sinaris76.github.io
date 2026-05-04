@@ -78,8 +78,19 @@ ninja.data = [
       },
     {%- endfor -%}
   {%- endif -%}
+  {%- for pub in site.data.pub_search -%}
+    {
+      id: "pub-{{ pub.title | slugify }}",
+      title: "{{ pub.title | escape | truncatewords: 13 }}",
+      description: "{{ pub.year }}",
+      section: "Publications",
+      handler: () => {
+        window.open("{{ pub.url }}", "_blank");
+      },
+    },
+  {%- endfor -%}
   {%- for collection in site.collections -%}
-    {%- if collection.label != 'posts' -%}
+    {%- if collection.label != 'posts' and collection.label != 'projects' and collection.label != 'books' -%}
       {%- for item in collection.docs -%}
         {
           {%- if item.inline -%}
