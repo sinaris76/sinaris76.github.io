@@ -17,33 +17,25 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{
-      id: "pub-artificial-integrity-concerning-patterns-of-ai-usage-among-undergraduate-students",
-      title: "Artificial integrity: Concerning patterns of AI usage among undergraduate students",
-      description: "2026",
+      id: "pub-learning-about-ai-to-learn-about-learning-artificial-intelligence-as-a-tool-for-metacognitive-reflection",
+      title: "Learning about AI to learn about learning: Artificial intelligence as a tool for...",
+      description: "2023",
       section: "Publications",
       handler: () => {
-        window.open("https://osf.io/preprints/edarxiv/exm5a_v1", "_blank");
+        window.open("https://doi.org/10.35542/osf.io/64ekv", "_blank");
       },
     },{
-      id: "pub-what-undergraduate-students-need-to-know-and-actually-know-about-generative-ai",
-      title: "What undergraduate students need to know and actually know about generative AI",
-      description: "2026",
+      id: "pub-a-computational-model-for-the-icap-framework-exploring-agent-based-modeling-as-an-aied-methodology",
+      title: "A computational model for the ICAP framework: Exploring agent-based modeling as an AIED...",
+      description: "2023",
       section: "Publications",
       handler: () => {
-        window.open("https://doi.org/10.1016/j.caeai.2026.100554", "_blank");
+        window.open("https://doi.org/10.1007/978-3-031-36272-9_73", "_blank");
       },
     },{
-      id: "pub-less-time-less-learning-generative-ai-reduced-study-time-on-math-problems-and-the-knowledge-they-build",
-      title: "Less time, less learning: Generative AI reduced study time on math problems and...",
-      description: "2026",
-      section: "Publications",
-      handler: () => {
-        window.open("/publications/", "_blank");
-      },
-    },{
-      id: "pub-clustering-wrong-answers-to-detect-math-misconceptions-in-free-form-responses",
-      title: "Clustering wrong answers to detect math misconceptions in free-form responses",
-      description: "2026",
+      id: "pub-four-interactions-between-ai-and-education-broadening-our-perspective-on-what-ai-can-offer-education",
+      title: "Four interactions between AI and education: Broadening our perspective on what AI can...",
+      description: "2023",
       section: "Publications",
       handler: () => {
         window.open("/publications/", "_blank");
@@ -55,6 +47,14 @@ ninja.data = [{
       section: "Publications",
       handler: () => {
         window.open("https://doi.org/10.1007/s40593-025-00483-9", "_blank");
+      },
+    },{
+      id: "pub-what-undergraduate-students-need-to-know-and-actually-know-about-generative-ai",
+      title: "What undergraduate students need to know and actually know about generative AI",
+      description: "2026",
+      section: "Publications",
+      handler: () => {
+        window.open("https://doi.org/10.1016/j.caeai.2026.100554", "_blank");
       },
     },{
       id: "pub-turtlebench-a-visual-programming-benchmark-in-turtle-geometry",
@@ -73,28 +73,28 @@ ninja.data = [{
         window.open("https://arxiv.org/abs/2408.13364", "_blank");
       },
     },{
-      id: "pub-learning-about-ai-to-learn-about-learning-artificial-intelligence-as-a-tool-for-metacognitive-reflection",
-      title: "Learning about AI to learn about learning: Artificial intelligence as a tool for...",
-      description: "2023",
+      id: "pub-artificial-integrity-concerning-patterns-of-ai-usage-among-undergraduate-students",
+      title: "Artificial integrity: Concerning patterns of AI usage among undergraduate students",
+      description: "2026",
       section: "Publications",
       handler: () => {
-        window.open("https://osf.io/preprints/edarxiv/64ekv_v1", "_blank");
+        window.open("/publications/", "_blank");
       },
     },{
-      id: "pub-a-computational-model-for-the-icap-framework-exploring-agent-based-modeling-as-an-aied-methodology",
-      title: "A computational model for the ICAP framework: Exploring agent-based modeling as an AIED...",
-      description: "2023",
+      id: "pub-less-time-less-learning-generative-ai-reduced-study-time-on-math-problems-and-the-knowledge-they-build",
+      title: "Less time, less learning: Generative AI reduced study time on math problems and...",
+      description: "2026",
       section: "Publications",
       handler: () => {
-        window.open("https://doi.org/10.1007/978-3-031-36272-9_73", "_blank");
+        window.open("/publications/", "_blank");
       },
     },{
-      id: "pub-four-interactions-between-ai-and-education-broadening-our-perspective-on-what-ai-can-offer-education",
-      title: "Four interactions between AI and education: Broadening our perspective on what AI can...",
-      description: "2023",
+      id: "pub-clustering-wrong-answers-to-detect-math-misconceptions-in-free-form-responses",
+      title: "Clustering wrong answers to detect math misconceptions in free-form responses",
+      description: "2026",
       section: "Publications",
       handler: () => {
-        window.open("https://sinaris76.github.io/AIxEd/", "_blank");
+        window.open("/publications/", "_blank");
       },
     },{
       id: "pub-turtle-like-geometry-learning-how-humans-and-machines-differ-in-learning-turtle-geometry",
