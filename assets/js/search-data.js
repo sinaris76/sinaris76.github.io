@@ -16,12 +16,95 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-admitted-to-simon-initiative-s-learnlab-summer-school-with-registration-scholarship-at-carnegie-mellon-university-pittsburgh-pa",
+        },{
+      id: "pub-artificial-integrity-concerning-patterns-of-ai-usage-among-undergraduate-students",
+      title: "Artificial integrity: Concerning patterns of AI usage among undergraduate students",
+      description: "2026",
+      section: "Publications",
+      handler: () => {
+        window.open("https://osf.io/preprints/edarxiv/exm5a_v1", "_blank");
+      },
+    },{
+      id: "pub-what-undergraduate-students-need-to-know-and-actually-know-about-generative-ai",
+      title: "What undergraduate students need to know and actually know about generative AI",
+      description: "2026",
+      section: "Publications",
+      handler: () => {
+        window.open("https://doi.org/10.1016/j.caeai.2026.100554", "_blank");
+      },
+    },{
+      id: "pub-less-time-less-learning-generative-ai-reduced-study-time-on-math-problems-and-the-knowledge-they-build",
+      title: "Less time, less learning: Generative AI reduced study time on math problems and...",
+      description: "2026",
+      section: "Publications",
+      handler: () => {
+        window.open("/publications/", "_blank");
+      },
+    },{
+      id: "pub-clustering-wrong-answers-to-detect-math-misconceptions-in-free-form-responses",
+      title: "Clustering wrong answers to detect math misconceptions in free-form responses",
+      description: "2026",
+      section: "Publications",
+      handler: () => {
+        window.open("/publications/", "_blank");
+      },
+    },{
+      id: "pub-the-evolution-of-research-on-ai-and-education-across-four-decades-insights-from-the-aixed-framework",
+      title: "The evolution of research on AI and education across four decades: Insights from...",
+      description: "2025",
+      section: "Publications",
+      handler: () => {
+        window.open("https://doi.org/10.1007/s40593-025-00483-9", "_blank");
+      },
+    },{
+      id: "pub-turtlebench-a-visual-programming-benchmark-in-turtle-geometry",
+      title: "TurtleBench: A visual programming benchmark in Turtle geometry",
+      description: "2025",
+      section: "Publications",
+      handler: () => {
+        window.open("https://arxiv.org/abs/2411.00264", "_blank");
+      },
+    },{
+      id: "pub-reconciling-different-theories-of-learning-with-an-agent-based-model-of-procedural-learning",
+      title: "Reconciling different theories of learning with an agent-based model of procedural learning",
+      description: "2025",
+      section: "Publications",
+      handler: () => {
+        window.open("https://arxiv.org/abs/2408.13364", "_blank");
+      },
+    },{
+      id: "pub-learning-about-ai-to-learn-about-learning-artificial-intelligence-as-a-tool-for-metacognitive-reflection",
+      title: "Learning about AI to learn about learning: Artificial intelligence as a tool for...",
+      description: "2023",
+      section: "Publications",
+      handler: () => {
+        window.open("https://osf.io/preprints/edarxiv/64ekv_v1", "_blank");
+      },
+    },{
+      id: "pub-a-computational-model-for-the-icap-framework-exploring-agent-based-modeling-as-an-aied-methodology",
+      title: "A computational model for the ICAP framework: Exploring agent-based modeling as an AIED...",
+      description: "2023",
+      section: "Publications",
+      handler: () => {
+        window.open("https://doi.org/10.1007/978-3-031-36272-9_73", "_blank");
+      },
+    },{
+      id: "pub-four-interactions-between-ai-and-education-broadening-our-perspective-on-what-ai-can-offer-education",
+      title: "Four interactions between AI and education: Broadening our perspective on what AI can...",
+      description: "2023",
+      section: "Publications",
+      handler: () => {
+        window.open("https://sinaris76.github.io/AIxEd/", "_blank");
+      },
+    },{
+      id: "pub-turtle-like-geometry-learning-how-humans-and-machines-differ-in-learning-turtle-geometry",
+      title: "Turtle-like geometry learning: How humans and machines differ in learning Turtle geometry",
+      description: "2024",
+      section: "Publications",
+      handler: () => {
+        window.open("https://doi.org/10.1609/aaaiss.v3i1.31286", "_blank");
+      },
+    },{id: "news-admitted-to-simon-initiative-s-learnlab-summer-school-with-registration-scholarship-at-carnegie-mellon-university-pittsburgh-pa",
           title: 'Admitted to Simon Initiative’s LearnLab Summer School with registration scholarship at Carnegie Mellon...',
           description: "",
           section: "News",},{id: "news-presented-turtle-like-geometry-learning-how-humans-and-machines-differ-in-learning-turtle-geometry-at-the-aaai-2024-spring-symposium-on-human-like-learning",
@@ -45,107 +128,7 @@ ninja.data = [{
           section: "News",},{id: "news-thrilled-to-share-that-i-was-selected-as-distinguished-public-impact-fellow-for-2025-26-at-uc-irvine-and-won-a-10-000-award-in-recognition-of-my-research-on-promoting-intellectual-virtues-in-the-age-of-ai",
           title: 'Thrilled to share that I was selected as Distinguished Public Impact Fellow for...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-bebras-contest-best-task-award",
-          title: 'Bebras Contest - Best Task Award',
-          description: "Computational thinking task design recognized as best among 150+ international submissions",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/bebras_contest/";
-            },},{id: "projects-deep-rl-for-ai-teachers",
-          title: 'Deep RL for AI Teachers',
-          description: "Using Deep Reinforcement Learning to improve AI teaching agents for second language vocabulary learning",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/deep_rl_ai_teachers/";
-            },},{id: "projects-instruction-analytics",
-          title: 'Instruction Analytics',
-          description: "Investigating the impact of instruction design on equity and student outcomes using LMS data",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/instruction_analytics/";
-            },},{id: "projects-quera-college",
-          title: 'Quera College',
-          description: "A MOOC platform for interactive problem-based programming courses",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/quera_college/";
-            },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%73%72%69%73%6D%61%6E%63@%75%63%69.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/sinaris76", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=7JXKtx8AAAAJ", "_blank");
-        },
-      },{
-        id: 'social-x',
-        title: 'X',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://twitter.com/SinaRismanchian", "_blank");
-        },
-      },{
+          section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
