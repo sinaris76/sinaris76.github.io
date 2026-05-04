@@ -2,52 +2,60 @@
 # Reads _bibliography/papers.bib and populates site.data['pub_search']
 # so the Cmd+K search index auto-updates whenever you edit papers.bib.
 
-Jekyll::Hooks.register :site, :after_read do |site|
-  bib_file = File.join(site.source, '_bibliography', 'papers.bib')
-  next unless File.exist?(bib_file)
+module Jekyll
+  class BibToSearch < Generator
+    safe true
+    priority :low
 
-  begin
-    require 'bibtex'
+    def generate(site)
+      bib_file = File.join(site.source, '_bibliography', 'papers.bib')
+      return unless File.exist?(bib_file)
 
-    # Strip Jekyll front matter (--- ... ---) before parsing
-    content = File.read(bib_file).gsub(/\A---\s*\n.*?---\s*\n/m, '')
-    bib = BibTeX.parse(content)
+      begin
+        require 'bibtex'
 
-    publications = []
-    bib.each do |entry|
-      next unless entry.respond_to?(:title)
+        # Strip Jekyll front matter before parsing
+        content = File.read(bib_file).sub(/\A---.*?---\n/m, '')
+        bib = BibTeX.parse(content)
 
-      title = entry.title.to_s.gsub(/[{}]/, '').gsub(/\s+/, ' ').strip
-      next if title.empty?
+        publications = []
+        bib.each do |entry|
+          # Skip @string, @comment, etc. — only process real entries
+          next unless entry.is_a?(BibTeX::Entry)
 
-      # Resolve URL: prefer doi > arxiv > website > url > fallback
-      doi = entry.respond_to?(:doi) ? entry.doi.to_s.strip : ''
-      arxiv = entry.respond_to?(:arxiv) ? entry.arxiv.to_s.strip : ''
-      website = entry.respond_to?(:website) ? entry.website.to_s.strip : ''
-      raw_url = entry.respond_to?(:url) ? entry.url.to_s.strip : ''
+          title = entry[:title].to_s.gsub(/[{}]/, '').gsub(/\s+/, ' ').strip
+          next if title.empty?
 
-      url = if doi != ''
-        doi.start_with?('http') ? doi : "https://doi.org/#{doi}"
-      elsif arxiv != ''
-        "https://arxiv.org/abs/#{arxiv}"
-      elsif website != ''
-        website
-      elsif raw_url != ''
-        raw_url
-      else
-        '/publications/'
+          doi     = entry[:doi].to_s.strip
+          arxiv   = entry[:arxiv].to_s.strip
+          website = entry[:website].to_s.strip
+          raw_url = entry[:url].to_s.strip
+
+          url = if !doi.empty?
+            doi.start_with?('http') ? doi : "https://doi.org/#{doi}"
+          elsif !arxiv.empty?
+            "https://arxiv.org/abs/#{arxiv}"
+          elsif !website.empty?
+            website
+          elsif !raw_url.empty?
+            raw_url
+          else
+            '/publications/'
+          end
+
+          publications << {
+            'title' => title,
+            'url'   => url,
+            'year'  => entry[:year].to_s
+          }
+        end
+
+        site.data['pub_search'] = publications
+        Jekyll.logger.info "BibSearch:", "Indexed #{publications.size} publication(s) for Cmd+K search."
+      rescue => e
+        Jekyll.logger.warn "BibSearch:", "Error: #{e.message}"
+        site.data['pub_search'] ||= []
       end
-
-      publications << {
-        'title' => title,
-        'url'   => url,
-        'year'  => entry.respond_to?(:year) ? entry.year.to_s : ''
-      }
     end
-
-    site.data['pub_search'] = publications
-    Jekyll.logger.info "BibSearch:", "Indexed #{publications.size} publication(s) for search."
-  rescue => e
-    Jekyll.logger.warn "BibSearch:", "Could not parse bibliography: #{e.message}"
   end
 end
