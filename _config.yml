@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: AI in Education, Computational Models of Learning, AI Literacy, Educational Data Mining, Learning Analytics, Educational Technology, Jekyll, academic-website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sinaris76.github.io # the base hostname & protocol for your site (update with your actual URL)
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
