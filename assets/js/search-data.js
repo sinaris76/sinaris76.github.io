@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{
       id: "pub-learning-about-ai-to-learn-about-learning-artificial-intelligence-as-a-tool-for-metacognitive-reflection",
       title: "Learning about AI to learn about learning: Artificial intelligence as a tool for...",
