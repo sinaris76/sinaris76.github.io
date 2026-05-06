@@ -2,7 +2,8 @@
 layout: page
 title: cv
 permalink: /cv/
-nav: false
+nav: true
+nav_order: 3
 ---
 
 <script>window.location.replace("/assets/pdf/rismanchian_cv.pdf");</script>
