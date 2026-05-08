@@ -52,10 +52,6 @@ Prior to UC Irvine, I completed my Bachelor's degree in Computer Engineering at 
 
 - **AI as Computational Models of Human Cognition**: I develop AI and computational models as formal analogies for human learning to transform abstract theories into interrogable objects that yield new insights. This includes [ABICAP](https://link.springer.com/chapter/10.1007/978-3-031-36272-9_73) (an agent-based model of ICAP theory) and [Procedural ABICAP](https://arxiv.org/abs/2408.13364) (reconciling Cognitive Load Theory, KLI, and ICAP). Further, I explore training language models as computational models of students' misconceptions to study the fairness and pedagogical implications of these models in personalized learning settings.
 
-## Publications
-
-You can find them on the [publications page](/publications/).
-
 ## Contact
 
 Please feel free to reach out via email. I'm open to discussing research, collaborations, or answering questions about my work.
