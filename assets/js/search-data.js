@@ -88,12 +88,12 @@ ninja.data = [{
         window.open("/publications/", "_blank");
       },
     },{
-      id: "pub-less-time-less-learning-generative-ai-reduced-study-time-on-math-problems-and-the-knowledge-they-build",
-      title: "Less time, less learning: Generative AI reduced study time on math problems and...",
+      id: "pub-faster-completion-less-learning-generative-ai-reduced-study-time-on-math-problems-and-the-knowledge-they-build",
+      title: "Faster Completion, Less Learning: Generative AI Reduced Study Time on Math Problems and...",
       description: "2026",
       section: "Publications",
       handler: () => {
-        window.open("/publications/", "_blank");
+        window.open("https://arxiv.org/abs/2605.21629", "_blank");
       },
     },{
       id: "pub-clustering-wrong-answers-to-detect-math-misconceptions-in-free-form-responses",
