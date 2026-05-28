@@ -135,6 +135,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-presentations-at-aera-where-i-presented-the-case-for-reviving-turtle-geometry-to-make-geometry-education-more-computational-visual-and-culturally-relevant-and-also-co-presented-with-peter-liu-our-results-on-the-reecent-preprint-on-students-concerning-ai-usage-aka-cheating-with-ai-at-our-symposium-on-intellctual-virtues-in-the-age-of-ai",
           title: 'Two presentations at AERA, where I presented the case for reviving Turtle Geometry...',
           description: "",
+          section: "News",},{id: "news-new-preprint-in-collaboration-with-mcgraw-hill-we-provide-large-scale-longitudinal-evidence-on-students-cognitive-surrender-after-the-introduction-of-chatgpt-students-are-completing-their-math-tasks-faster-and-learn-less",
+          title: 'New preprint! In collaboration with McGraw Hill, we provide large-scale, longitudinal evidence on...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
