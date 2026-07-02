@@ -138,6 +138,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-in-collaboration-with-mcgraw-hill-we-provide-large-scale-longitudinal-evidence-on-students-cognitive-surrender-after-the-introduction-of-chatgpt-students-are-completing-their-math-tasks-faster-and-learn-less",
           title: 'New preprint! In collaboration with McGraw Hill, we provide large-scale, longitudinal evidence on...',
           description: "",
+          section: "News",},{id: "news-had-a-great-time-at-icls-2026-where-we-presented-two-works-led-by-iman-mohammadi-a-paper-titled-mapping-instructors-attitudes-towards-cheating-with-ai-an-exploratory-analysis-using-forum-analysis-and-a-poster-titled-understanding-students-rationales-for-ai-mediated-cheating-an-instructor-perspective-from-online-forums-analysis-kudos-to-iman-for-leading-both",
+          title: 'Had a great time at ICLS 2026, where we presented two works led...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
