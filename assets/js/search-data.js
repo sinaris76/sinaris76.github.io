@@ -144,7 +144,7 @@ ninja.data = [{
           section: "News",},{id: "news-thrilled-to-share-that-i-ve-started-a-new-position-as-data-science-and-ai-intern-at-playlab-ai-i-ll-be-researching-how-ai-powered-apps-and-chatbots-built-by-teachers-can-be-designed-to-facilitate-deeper-educational-impact",
           title: 'Thrilled to share that I’ve started a new position as Data Science and...',
           description: "",
-          section: "News",},{id: "news-our-paper-titled-from-empirical-replication-to-hypothesis-generation-concretizing-our-understanding-of-learning-with-a-computational-model-of-icap-has-been-accepted-to-aied-2026-kudos-to-mandy-for-leading-most-of-the-work",
+          section: "News",},{id: "news-our-paper-titled-from-empirical-replication-to-hypothesis-generation-concretizing-our-understanding-of-learning-with-a-computational-model-of-icap-has-been-accepted-to-aied-2026-kudos-to-mandy-pan-for-leading-most-of-the-work",
           title: 'Our paper titled From Empirical Replication to Hypothesis Generation: Concretizing Our Understanding of...',
           description: "",
           section: "News",},{
