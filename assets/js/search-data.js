@@ -141,6 +141,12 @@ ninja.data = [{
           section: "News",},{id: "news-had-a-great-time-at-icls-2026-where-we-presented-two-works-led-by-iman-mohammadi-a-paper-titled-mapping-instructors-attitudes-towards-cheating-with-ai-an-exploratory-analysis-using-forum-analysis-and-a-poster-titled-understanding-students-rationales-for-ai-mediated-cheating-an-instructor-perspective-from-online-forums-analysis-kudos-to-iman-for-leading-both",
           title: 'Had a great time at ICLS 2026, where we presented two works led...',
           description: "",
+          section: "News",},{id: "news-thrilled-to-share-that-i-ve-started-a-new-position-as-data-science-and-ai-intern-at-playlab-ai-i-ll-be-researching-how-ai-powered-apps-and-chatbots-built-by-teachers-can-be-designed-to-facilitate-deeper-educational-impact",
+          title: 'Thrilled to share that I’ve started a new position as Data Science and...',
+          description: "",
+          section: "News",},{id: "news-our-paper-titled-from-empirical-replication-to-hypothesis-generation-concretizing-our-understanding-of-learning-with-a-computational-model-of-icap-has-been-accepted-to-aied-2026-kudos-to-mandy-for-leading-most-of-the-work",
+          title: 'Our paper titled From Empirical Replication to Hypothesis Generation: Concretizing Our Understanding of...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
