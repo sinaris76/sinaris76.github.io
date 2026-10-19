@@ -139,7 +139,7 @@ nav: false
   <div class="xp__head">
     <div class="xp__num">1</div>
     <div class="xp__titles">
-      <p class="xp__kicker">Intellectual carefulness</p>
+      <p class="xp__kicker">Intellectual tenacity</p>
       <h2 class="xp__title">Refresh your knowledge</h2>
     </div>
   </div>
