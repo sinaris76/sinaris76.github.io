@@ -154,6 +154,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-titled-from-empirical-replication-to-hypothesis-generation-concretizing-our-understanding-of-learning-with-a-computational-model-of-icap-has-been-accepted-to-aied-2026-kudos-to-mandy-pan-for-leading-most-of-the-work",
           title: 'Our paper titled From Empirical Replication to Hypothesis Generation: Concretizing Our Understanding of...',
           description: "",
+          section: "News",},{id: "news-our-study-on-generative-ai-and-math-learning-was-featured-in-the-new-york-times-the-interactive-piece-will-a-i-make-your-brain-lazy-walks-through-our-aleks-study-finding-that-students-spent-less-time-and-learned-less-on-the-problems-ai-could-do-for-them",
+          title: 'Our study on generative AI and math learning was featured in The New...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
