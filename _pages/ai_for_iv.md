@@ -185,7 +185,7 @@ nav: false
   <div class="dnote">
     <span class="dnote__label">Design notes</span>
     <!-- SINA: write about the design choices for this experience here -->
-    <p> The idea behind this chatbot, is to practice intellectual tenacity, especially in interaction with AI. AI models can hallucinate and be wrong, and in settings where humans epistemic practices are infused with AI, intellectual tenacity, can look like being careful and dilligent when readin AI's output as a source of knowledge.
+    <p> The idea behind this chatbot, is to practice intellectual tenacity and carefulness, especially in interaction with AI. AI models can hallucinate and be wrong, and in settings where humans epistemic practices are infused with AI, intellectual tenacity, can look like being careful and dilligent when readin AI's output as a source of knowledge.
     </p>
   </div>
 </section>
