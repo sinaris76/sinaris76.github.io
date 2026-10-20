@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 <style>
-  .proj-index { margin-top: 1.5rem; }
+  .proj-index { margin-top: 1.5rem; display: grid; gap: 1.25rem; }
   .proj-card {
     display: grid;
     grid-template-columns: 1fr;
@@ -79,6 +79,23 @@ nav_order: 3
       The full course is currently being studied in a randomized controlled study. Try the chatbots and reflect.
     </p>
     <span class="proj-card__cta">Explore the experiences&nbsp;<span class="arrow">&rarr;</span></span>
+  </div>
+</a>
+
+<a class="proj-card" href="{{ '/projects/abicap/' | relative_url }}">
+  <div>
+    <p class="proj-card__eyebrow">Agent-based modeling of ICAP</p>
+    <h2 class="proj-card__title">ABICAP</h2>
+    <div class="proj-card__tags">
+      <span class="proj-tag">Agent-based modeling</span>
+      <span class="proj-tag">ICAP framework</span>
+      <span class="proj-tag">Interactive simulation</span>
+    </div>
+    <p class="proj-card__desc">
+      A computational model of the ICAP framework, in which simulated passive, active, constructive, and interactive learners work through a network of ideas.
+      Run the conceptual-knowledge and mastery models in your browser, change the parameters, and design your own experiments.
+    </p>
+    <span class="proj-card__cta">Run the simulations&nbsp;<span class="arrow">&rarr;</span></span>
   </div>
 </a>
 
